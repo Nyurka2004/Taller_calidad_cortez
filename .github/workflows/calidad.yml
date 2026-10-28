@@ -1,7 +1,10 @@
 name: Calidad del software
+
 on: [push, pull_request, workflow_dispatch]
+
 permissions:
   contents: read
+
 jobs:
   pruebas:
     runs-on: ubuntu-latest
